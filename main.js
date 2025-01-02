@@ -804,7 +804,7 @@ class HeaderComponent {
     localStorage.clear();
     this.auth.logout({
       logoutParams: {
-        returnTo: window.location.origin
+        returnTo: window.location.origin + '/Mypedia-Live/'
       }
     });
   }
