@@ -1,0 +1,89 @@
+[
+    {
+      "label": "CEO",
+      "styleClass": "p-root-chart",
+      "expanded": true,
+      "data": {
+        "name": "Walter White",
+        "avatar": ""
+      },
+      "children": [
+        {
+          "label": "CFO",
+          "styleClass": "p-person",
+          "expanded": true,
+          "data": {
+            "name": "Saul Goodman",
+            "avatar": ""
+          },
+          "children": [
+            {
+              "label": "Tax",
+              "data": {
+                "name": "abc"
+              },
+              "styleClass": "p-person"
+            },
+            {
+              "label": "Legal",
+              "styleClass": "p-person"
+            }
+          ]
+        },
+        {
+          "label": "COO",
+          "styleClass": "p-person",
+          "expanded": true,
+          "data": {
+            "name": "Mike E. Hill",
+            "avatar": "assets/mike.jpg"
+          },
+          "children": [
+            {
+              "label": "Operations",
+              "styleClass": "p-person"
+            }
+          ]
+        },
+        {
+          "label": "CTO",
+          "styleClass": "p-person",
+          "expanded": true,
+          "data": {
+            "name": "Jesse Pinkman",
+            "avatar": "assets/jesse.jpg"
+          },
+          "children": [
+            {
+              "label": "Development",
+              "styleClass": "p-person",
+              "expanded": true,
+              "children": [
+                {
+                  "label": "Analysis",
+                  "styleClass": "p-person"
+                },
+                {
+                  "label": "Front End",
+                  "styleClass": "p-person"
+                },
+                {
+                  "label": "Back End",
+                  "styleClass": "p-person"
+                }
+              ]
+            },
+            {
+              "label": "QA",
+              "styleClass": "p-person"
+            },
+            {
+              "label": "R&D",
+              "styleClass": "p-person"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

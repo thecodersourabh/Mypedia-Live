@@ -1,0 +1,240 @@
+{
+    "Header.Item1": "About Us",
+    "Header.Item2": "Log In",
+    "Header.Item3": "My Family Tree",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "",
+    "Banner.Pretitle": "",
+    "Banner.Title": "",
+    "Banner.Subtitle": "Our services cover the full spectrum of e-profile creation, e-commerce sites, and cloud-based or AI/ML-driven end-to-end solutions. Committed to applying best practices and development standards, we ensure that every project meets your needs with precision and excellence.We specialize in crafting innovative solutions that enhance your digital presence. Our expertise spans developing robust systems, intuitive interfaces, and sophisticated bots, all designed to improve the web experience. We focus on delivering clean, reusable, and scalable code using cutting-edge technologies. ",
+    "Banner.Description": "",
+    "Banner.ActionBtn": "Get in touch",
+    "Banner.Image": "assets/images/banner.png",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        ""
+    ],
+    "AboutMe.Technologies": [],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "S&P Global",
+            "Title": "Fullstack developer",
+            "Date": "May 2020",
+            "Description": [
+                "Technical decision leader",
+                "Technical talent recruitment for the company",
+                "Department of Technology team leader",
+                "Creation and maintenance of an Chemical Assets data Analitics tool",
+                "Programming of backend and frontend features for a web application",
+                "Implementation of continuous integration and daily backups.",
+                "Planning meetings with reports."
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "S&P Capital IQ Pro (Chemical-Insights)",
+            "Description": "Monitoring application for data consultation. Developed software for chemical forecast data refinement and visualization using Azure, GIT, AWS, ASP.Net Core API 3.0, C#, Angular 11, and SQL Server 2020. Implemented microservices for processing big data and delivering matrices and graphs to dashboards., made with <span class='underline'>Angular</span> and backend in <span class='underline'>C#, Dotnet core</span>. It works with <span class='underline'>Rest API and GenAI</span>, <span class='underline'>schedules</span>, <span class='underline'>SQS</span>, integrations with AWS, CloudWatch, Microservices etc.",
+            "imgs": [
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+            ],
+            "Technologies": [
+                "C#",
+                "Angular 17",
+                "SASS",
+                "Angular Material",
+                "RxJS",
+                "AWS",
+                "Dotnet core",
+                "SQS",
+                "Rest API",
+                "GenAI",
+                "Schedules",
+                "Microservices",
+                "AWS CloudWatch",
+                "AWS Lambda"
+            ]
+        },
+        {
+            "Title": "Sample Testing - Next Generation",
+            "Description": "Created microservices for an online order placement and sample testing application using Azure, GIT, Postman, ASP.Net Core API 3.0, C#, Angular 6, and SQL Server 2017. Developed a system to manage barcodes, scheduling, and payments for customer sample testing, made with <span class='underline'>Angular</span> and <span class='underline'>C#</span>. It applies the <span class='underline'>chart.js</span> graphics library",
+            "imgs": [
+                "assets/images/proyex2/6d7d8f04-f1f0-40c7-afbb-d2944cdb4d9c.png",
+                "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
+                "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
+                "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
+                "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+            ],
+            "Technologies": [
+                "C#",
+                "Angular 2",
+                "SASS",
+                "Angular Material",
+                "RxJS"
+            ]
+        },
+        {
+            "Title": "Tax Management Services(KPMG)",
+            "Description": "Tech Cello is available as one integrated and unified solution that can be easily plugged in to accelerate any new SaaS product development. The Tech Cello framework provides services such as provisioning, security, metering, billing, monitoring services; workflow and multi-tenant database are exposed to the application layer. This will be application development platform that allows developers to create, test and deploy applications, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has reactive form logic for configuring parameters.",
+            "imgs": [
+                "assets/images/agrourbana/agrourbana1.png",
+                "assets/images/agrourbana/agrourbana2.png",
+                "assets/images/agrourbana/agrourbana3.png",
+                "assets/images/agrourbana/agrourbana4.png",
+                "assets/images/agrourbana/agrourbana5.png"
+            ],
+            "Technologies": [
+                "C#",
+                "Angular",
+                "SASS",
+                "Angular Material",
+                "RxJS"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Coming soon page",
+            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+            "ghLink": "",
+            "demoLink": "",
+            "Technologies": [
+                "C#",
+                "Angular",
+                "SASS",
+                "CSS GRID",
+                "Reactive form"
+            ]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+            "ghLink": "",
+            "demoLink": "",
+            "Technologies": [
+                "Angular",
+                "SASS",
+                "CSS GRID"
+            ]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+            "ghLink": "",
+            "demoLink": "https://thecodersourabh.github.io/sourabh-portfolio/en",
+            "Technologies": [
+                "Angular",
+                "SASS",
+                "GIT"
+            ]
+        }
+    ],
+    
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello",
+    "AboutUs": {
+        "Name": "Sourabh Joshi",
+        "Email": "meet2sourabh@gmail.com",
+        "Location": "Bangalore, India",
+        "Phone": "+91 946 860 9053",
+        "Github": "https://github.com/thecodersourabh",
+        "LinkedIn": "https://www.linkedin.com/in/sourabh-joshi-460b1368/",
+        "Twitter": "https://twitter.com/thecodersourabh",
+        "Whatsapp": "https://api.whatsapp.com/send?phone=+919468609053",
+        "Instagram": "https://www.instagram.com/thecodersourabh/",
+        "Facebook": "https://www.facebook.com/sourabh.thakur.5",
+        "Visit": "https://thecodersourabh.github.io/sourabh-portfolio/en"
+    },
+    "FamilyTree":[
+      {
+        "id": 100,
+        "parentId": null,
+        "name": "Steven",
+        "lastName": "King",
+        "position": "Chief Operating Officer",
+        "image": "https://bumbeishvili.github.io/avatars/avatars/portrait12.png",
+        "email": "SKING",
+        "phone_number": "515.123.4567",
+        "hire_date": "2003-07-16T19:00:00.000Z",
+        "job_id": "AD_PRES",
+        "salary": 24000,
+        "commission_pct": null,
+        "department_id": 90,
+        "job_min_salary": 20080,
+        "location_state": "Washington",
+        "job_max_salary": 40000,
+        "department_name": "Executive",
+        "department_location_id": 1700,
+        "department_location_street_address": "2004 Charade Rd",
+        "department_location_postal_code": "98199",
+        "department_location_country_id": "US",
+        "department_location_country_name": "United States of America",
+        "department_location_country_region_id": 2,
+        "department_location_country_region_name": "Americas"
+      },
+      {
+        "id": 101,
+        "parentId": 100,
+        "name": "Neena",
+        "lastName": "Kochhar",
+        "position": "Administration Vice President",
+        "image": "https://bumbeishvili.github.io/avatars/avatars/portrait85.png",
+        "email": "NKOCHHAR",
+        "phone_number": "515.123.4568",
+        "hire_date": "2005-10-20T20:00:00.000Z",
+        "job_id": "AD_VP",
+        "salary": 17000,
+        "commission_pct": null,
+        "department_id": 90,
+        "job_min_salary": 15000,
+        "location_state": "Washington",
+        "job_max_salary": 30000,
+        "department_name": "Executive",
+        "department_location_id": 1700,
+        "department_location_street_address": "2004 Charade Rd",
+        "department_location_postal_code": "98199",
+        "department_location_country_id": "US",
+        "department_location_country_name": "United States of America",
+        "department_location_country_region_id": 2,
+        "department_location_country_region_name": "Americas"
+      },
+      {
+        "id": 102,
+        "parentId": 100,
+        "name": "Lex",
+        "lastName": "De Haan",
+        "position": "Administration Vice President",
+        "image": "https://bumbeishvili.github.io/avatars/avatars/portrait16.png",
+        "email": "LDEHAAN",
+        "phone_number": "515.123.4569",
+        "hire_date": "2001-02-12T20:00:00.000Z",
+        "job_id": "AD_VP",
+        "salary": 17000,
+        "commission_pct": null,
+        "department_id": 90,
+        "job_min_salary": 15000,
+        "location_state": "Washington",
+        "job_max_salary": 30000,
+        "department_name": "Executive",
+        "department_location_id": 1700,
+        "department_location_street_address": "2004 Charade Rd",
+        "department_location_postal_code": "98199",
+        "department_location_country_id": "US",
+        "department_location_country_name": "United States of America",
+        "department_location_country_region_id": 2,
+        "department_location_country_region_name": "Americas"
+      }
+     
+    ]
+      
+}
