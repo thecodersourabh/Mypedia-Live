@@ -792,14 +792,7 @@ class HeaderComponent {
   loginWithRedirect() {
     this.auth.loginWithRedirect();
   }
-  ngAfterViewInit() {
-    const asideElement = this.elementRef.nativeElement.querySelector('aside');
-    if (asideElement) {
-      console.log(asideElement.innerHTML);
-    } else {
-      console.log('Aside element not found');
-    }
-  }
+  ngAfterViewInit() {}
   logout() {
     localStorage.clear();
     this.auth.logout({
@@ -2574,7 +2567,7 @@ const environment = {
     clientId,
     authorizationParams: {
       //...(audience && audience !== config.apiUri ? { audience } : null),
-      redirect_uri: window.location.origin
+      redirect_uri: window.location.origin + '/Mypedia-Live/'
     },
     errorPath
   },
