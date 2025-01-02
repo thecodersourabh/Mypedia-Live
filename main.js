@@ -1689,7 +1689,7 @@ class MyTreeComponent {
         zoom: true,
         fit: true,
         expandAll: false,
-        fullScreen: true
+        fullScreen: false
       },
       editForm: {
         titleBinding: 'name',
@@ -1741,6 +1741,7 @@ class MyTreeComponent {
       }
     });
     family.load(this.treeData.userData);
+    family.fit();
     family.onUpdateNode(args => {
       let updatedNode = args.updateNodesData[0];
       if (updatedNode != null || updatedNode != undefined && args.updateNodesData.length > 0) {
