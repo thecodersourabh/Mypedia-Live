@@ -240,6 +240,7 @@ class AppModule {
         }
       }), _auth0_auth0_angular__WEBPACK_IMPORTED_MODULE_9__.AuthModule.forRoot({
         ..._environments_environment__WEBPACK_IMPORTED_MODULE_4__.environment.auth,
+        cacheLocation: 'localstorage',
         httpInterceptor: {
           ..._environments_environment__WEBPACK_IMPORTED_MODULE_4__.environment.httpInterceptor
         }
@@ -697,12 +698,12 @@ class HeaderComponent {
     this.languageFormControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.UntypedFormControl();
     this.cvName = '';
     this.user = null;
-  }
-  ngOnInit() {
     this.interactionService.getMessage().subscribe(message => {
       this.isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
       this.user = JSON.parse(message);
     });
+  }
+  ngOnInit() {
     this.sub = this.auth.user$.subscribe(user => {
       this.user = user;
       if (!user || !user.sub) {
